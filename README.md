@@ -1,97 +1,74 @@
-AjkerDeal Manual Testing
+# **AjkerDeal Manual Testing**  
 
-This repository contains manual test cases for the AjkerDeal website, covering key functionalities like Registration, Login, Add to Cart, and Search.
+This repository contains **manual test cases** for the **AjkerDeal** website, covering key functionalities like **Registration, Login, Add to Cart, and Search**.  
 
-📌 Test Modules
+## 📌 **Test Modules**  
 
-Registration
+- **Registration**  
+- **Login**  
+- **Add to Cart**  
+- **Search**  
 
-Login
+## 📝 **Test Case Overview**  
 
-Add to Cart
+### 1️⃣ **Registration**  
 
-Search
+**Objective:** Verify that users can successfully register on **AjkerDeal**.  
 
-📝 Test Case Overview
+**Test Scenarios:**  
+- ✅ **Valid user registration**  
+- ❌ **Registration with existing email**  
+- ⚠️ **Registration with invalid data**  
+- 🔑 **Password validation checks**  
 
-1️⃣ Registration
+### 2️⃣ **Login**  
 
-Objective: Verify that users can successfully register on AjkerDeal.
+**Objective:** Ensure users can log in securely.  
 
-Test Scenarios:
+**Test Scenarios:**  
+- ✅ **Successful login with valid credentials**  
+- ❌ **Login with incorrect password**  
+- ⚠️ **Login with unregistered email**  
+- 🔄 **Forgot password functionality**  
 
-Valid user registration
+### 3️⃣ **Add to Cart**  
 
-Registration with existing email
+**Objective:** Validate the **add-to-cart** functionality.  
 
-Registration with invalid data
+**Test Scenarios:**  
+- 🛒 **Adding a product to the cart**  
+- 🛍 **Adding multiple products**  
+- 🗑 **Removing items from the cart**  
+- 💰 **Checking cart total calculation**  
 
-Password validation checks
+### 4️⃣ **Search**  
 
-2️⃣ Login
+**Objective:** Ensure users can search for products effectively.  
 
-Objective: Ensure users can log in securely.
+**Test Scenarios:**  
+- 🔎 **Searching by product name**  
+- 🔄 **Searching with filters applied**  
+- 🚫 **Searching for unavailable products**  
+- ✨ **Auto-suggestions during search**  
 
-Test Scenarios:
+## 📂 **Test Execution Details**  
 
-Successful login with valid credentials
+- **Test Execution Start Date:** *As per the test cycle*  
+- **Test Execution End Date:** *Based on project schedule*  
+- **Tested By:** *QA Team*  
+- **Browsers Tested:** *Chrome, Firefox, Edge*  
 
-Login with incorrect password
+## 📊 **Test Results Summary**  
 
-Login with unregistered email
+- ✅ **Passed:** `[Count from test execution]`  
+- ❌ **Failed:** `[Count from test execution]`  
+- ⚠️ **Warnings:** `[Count from test execution]`  
 
-Forgot password functionality
+## 📌 **How to Use**  
 
-3️⃣ Add to Cart
+1. **Clone** this repository.  
+2. **Review** the test cases provided in the **AjkerDeal.xlsx** file.  
+3. **Execute** the test cases and **log results**.  
 
-Objective: Validate the add-to-cart functionality.
+---
 
-Test Scenarios:
-
-Adding a product to the cart
-
-Adding multiple products
-
-Removing items from the cart
-
-Checking cart total calculation
-
-4️⃣ Search
-
-Objective: Ensure users can search for products effectively.
-
-Test Scenarios:
-
-Searching by product name
-
-Searching with filters applied
-
-Searching for unavailable products
-
-Auto-suggestions during search
-
-📂 Test Execution Details
-
-Test Execution Start Date: As per the test cycle
-
-Test Execution End Date: Based on project schedule
-
-Tested By: Afia
-
-Browsers Tested: Chrome, Firefox, Edge
-
-📊 Test Results Summary
-
-✅ Passed: [Count from test execution]
-
-❌ Failed: [Count from test execution]
-
-⚠️ Warnings: [Count from test execution]
-
-📌 How to Use
-
-Clone this repository.
-
-Review the test cases provided in the AjkerDeal.xlsx file.
-
-Execute the test cases and log results.
