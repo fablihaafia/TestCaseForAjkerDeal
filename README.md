@@ -56,7 +56,7 @@ This repository contains **manual test cases** for the **AjkerDeal** website, co
 - **Test Execution Start Date:** *As per the test cycle*  
 - **Test Execution End Date:** *Based on project schedule*  
 - **Tested By:** *Afia*  
-- **Browsers Tested:** *Chrome, Firefox, Edge*  
+- **Browsers Tested:** *Chrome*  
 
 ## 📊 **Test Results Summary**  
 
